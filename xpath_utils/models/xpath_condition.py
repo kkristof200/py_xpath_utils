@@ -41,7 +41,7 @@ class XPathCondition:
         self.__name = k
         self.__value = v
 
-        k = '@{}'.format(k)
+        k = '{}{}'.format('' if k.endswith('()') else '@', k)
 
         if condition_type == XPathConditionType.CONTAINS:
             self.__xpath_value = 'contains({}, \'{}\')'.format(k, v)
