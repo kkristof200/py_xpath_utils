@@ -16,7 +16,7 @@
 
 ## Description
 
-
+A collection of utils for easier creation of xpaths
 
 ## Install
 

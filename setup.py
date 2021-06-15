@@ -10,7 +10,7 @@ else:
 
 setuptools.setup(
     name='xpath_utils',
-    version='0.0.2',
+    version='0.0.3',
     author='Kristóf-Attila Kovács',
     description='xpath_utils',
     long_description=long_description,
